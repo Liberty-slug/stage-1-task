@@ -37,7 +37,7 @@ function App() {
             <button><a href="https://background.zuri.team" id="pitch">Background Check for Code</a></button>
             <button><a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a></button>
          </div>
-         {/* Link section end */}
+         {/* Link section ends */}
 
 
          {/* Social Section Start */}
@@ -56,7 +56,7 @@ function App() {
             </div>
          </div>
          {/* Footer Section end */}
-         
+
       </div>
     </>
   );
