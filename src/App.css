@@ -98,7 +98,7 @@
   color: #667085;
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
   .container{
     flex-direction: column;
   }
