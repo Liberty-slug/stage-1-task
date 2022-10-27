@@ -12,15 +12,23 @@ function App() {
   return (
     <>
       <div className="linktree">
+
+        {/* Share Button Start */}
         <div className="share-button">
           <img src={share} alt="" className='share'/>
           <img src={dot} alt="" className='dot'/>
         </div>
+        {/* Share Button end */}
+
+        {/* Profile Section start */}
          <div className="profile-section">
             <img src={logo} alt="" id="profile__img"/>
             <h2 id="twitter">Iamharyobahmi</h2>
-            <h2 id="slack" hidden>Iamharyobahmi</h2>
+            <h2 id="slack" hidden>LibertyTech</h2>
          </div>
+         {/* Profile Section end */}
+
+          {/* Link section Start */}
          <div className="link-section">
             <button><a href="https://twitter.com/iamharyobahmi" rel="Twitter link">Twitter Link</a></button>
             <button><a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a></button>
@@ -29,10 +37,17 @@ function App() {
             <button><a href="https://background.zuri.team" id="pitch">Background Check for Code</a></button>
             <button><a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a></button>
          </div>
+         {/* Link section end */}
+
+
+         {/* Social Section Start */}
          <div className="social-section">
             <img src={slack} alt="" height="30"/>
             <img src={github} alt="" height="30"/>
          </div>
+         {/* Social Section end */}
+
+         {/* Footer Section start */}
          <div className="footer">
             <div className="container">
               <img src={vector} alt="" height="30" />
@@ -40,6 +55,8 @@ function App() {
               <img src={I4G} alt="" height="30"/>
             </div>
          </div>
+         {/* Footer Section end */}
+         
       </div>
     </>
   );
