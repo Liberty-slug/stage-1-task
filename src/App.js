@@ -5,11 +5,17 @@ import github from './Icon.png'
 import slack from './Slack_icon.png'
 import vector from './Vector.png'
 import I4G from './I4G.png'
+import share from './Icon-share.png'
+import dot from './Icon-dot.png'
 
 function App() {
   return (
     <>
       <div className="linktree">
+        <div className="share-button">
+          <img src={share} alt="" className='share'/>
+          <img src={dot} alt="" className='dot'/>
+        </div>
          <div className="profile-section">
             <img src={logo} alt="" id="profile__img"/>
             <h2 id="twitter">Iamharyobahmi</h2>

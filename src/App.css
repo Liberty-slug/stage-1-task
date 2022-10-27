@@ -7,6 +7,21 @@
   flex-direction: column;
   align-items: center;
 }
+.linktree .share-button{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 400px; 
+  top: 40px;
+  border: 1px dashed #D0D5DD;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linktree .share-button .dot{
+  display: none;
+}
 .profile-section{
   padding-top: 40px;
   display: flex;
@@ -86,5 +101,18 @@
 @media (max-width: 450px){
   .container{
     flex-direction: column;
+  }
+  .linktree .share-button .dot{
+    display: block;
+  }
+  .linktree .share-button .share{
+    display: none;
+  }
+  .linktree .share-button{
+    right: 15px; 
+    top: 40px;
+  }
+  .link-section{
+    margin-top: 25px;
   }
 }
