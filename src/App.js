@@ -34,8 +34,8 @@ function App() {
             <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
             <a href="http://books.zuri.team" id="books" title="This is where you find books about design and coding">Zuri Books</a>
             <a href="https://books.zuri.team/python-for-beginners?ref_id=LibertyTech" id="book__python" title='Buy my Python book for beginners'>Python Books</a>
-            <a href="https://background.zuri.team" id="pitch">Background Check for Code</a>
-            <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
+            <a href="https://background.zuri.team" id="pitch" title='Do a background check on a coder here'>Background Check for Code</a>
+            <a href="https://books.zuri.team/design-rules" id="book__design" title='Get a free design book offered by Zuri.'>Design Books</a>
          </div>
          {/* Link section ends */}
 
