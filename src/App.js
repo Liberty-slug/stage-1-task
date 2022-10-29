@@ -30,12 +30,12 @@ function App() {
 
           {/* Link section Start */}
          <div className="link-section">
-            <button><a href="https://twitter.com/iamharyobahmi" rel="Twitter link">Twitter Link</a></button>
-            <button><a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a></button>
-            <button><a href="http://books.zuri.team" id="books">Zuri Books</a></button>
-            <button><a href="https://books.zuri.team/python-for-beginners?ref_id=LibertyTech" id="book__python">Python Books</a></button>
-            <button><a href="https://background.zuri.team" id="pitch">Background Check for Code</a></button>
-            <button><a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a></button>
+            <a href="https://twitter.com/iamharyobahmi" rel="Twitter link">Twitter Link</a>
+            <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
+            <a href="http://books.zuri.team" id="books" title="This is where you find books about design and coding">Zuri Books</a>
+            <a href="https://books.zuri.team/python-for-beginners?ref_id=LibertyTech" id="book__python" title='Buy my Python book for beginners'>Python Books</a>
+            <a href="https://background.zuri.team" id="pitch">Background Check for Code</a>
+            <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
          </div>
          {/* Link section ends */}
 
