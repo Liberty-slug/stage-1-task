@@ -2,6 +2,8 @@
 
 body{
   font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 .linktree{
   background-color: #fff;
@@ -106,6 +108,108 @@ body{
   color: #667085;
 }
 
+/* Contact style */
+
+.contact-page{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-page .content{
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.contact-page .content .heading{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #101828;
+}
+.contact-page .content .supporting-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #475467;
+}
+
+.contact-page .content .form .name-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+
+}
+
+.contact-page .content .form .name-row input{
+  padding: 15px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 260px;
+}
+.contact-page .content .form .name-row .first-name{
+  display: flex;
+  flex-direction: column;
+}
+.contact-page .content .form .name-row .last-name{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page .content .form .email{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.contact-page .content .form .email input{
+  padding: 15px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.contact-page .content .form .textarea{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.contact-page .content .form .textarea textarea{
+  height: 132px;
+  padding: 15px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.checkbox{
+  display: flex;
+  margin-block: 10px;
+}
+.checkbox input{
+  margin-right: 20px;
+}
+.form button{
+  padding: 12px 20px;
+  background: #1570EF;
+  border: 1px solid #1570EF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
 @media (max-width: 600px){
   .container{
     flex-direction: column;
@@ -122,5 +226,27 @@ body{
   }
   .link-section{
     margin-top: 25px;
+  }
+  .contact-page .content{
+    width: 90%;
+    margin: auto;
+  }
+  .contact-page .content .form .name-row{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .contact-page .content .form .name-row .last-name{
+    margin-top: 40px;
+  }
+  .contact-page .content .form .name-row input{
+    padding: 20px;
+    width: 100%;
+  }
+  .contact-page .content .form .email{
+    margin-top: 40px;
+  }
+  .contact-page .content .form .email input{
+    padding: 20px;
   }
 }
