@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stage-1-task/static/css/main.e8c82c6f.css",
-    "main.js": "/stage-1-task/static/js/main.d95e0d36.js",
+    "main.js": "/stage-1-task/static/js/main.6777aa00.js",
     "static/media/Slack_icon.png": "/stage-1-task/static/media/Slack_icon.e6295f65b408f0f6e505.png",
     "static/media/profile.png": "/stage-1-task/static/media/profile.5ff40e1b5d2b90077f44.png",
     "index.html": "/stage-1-task/index.html",
     "main.e8c82c6f.css.map": "/stage-1-task/static/css/main.e8c82c6f.css.map",
-    "main.d95e0d36.js.map": "/stage-1-task/static/js/main.d95e0d36.js.map"
+    "main.6777aa00.js.map": "/stage-1-task/static/js/main.6777aa00.js.map"
   },
   "entrypoints": [
     "static/css/main.e8c82c6f.css",
-    "static/js/main.d95e0d36.js"
+    "static/js/main.6777aa00.js"
   ]
 }
