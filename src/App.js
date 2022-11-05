@@ -8,7 +8,7 @@ function App () {
   return (
       <Router>
           <Routes>  
-          <Route index element={<Home />} />    
+          <Route path="/stage-1-task" element={<Home />} />    
           <Route path="/contact" element={<Contact />} />    
           </Routes>
       </Router>
